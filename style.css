@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(238, 238, 238);
+}
+
+a#instagram {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  display: block;
+  width: 144px;
+  height: 144px;
+  outline: none;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  border-radius: 32px;
+  background: -webkit-radial-gradient(
+      32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -moz-radial-gradient(
+      32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -ms-radial-gradient(
+      32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -o-radial-gradient(
+      32% 106%,
+      circle cover,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: radial-gradient(
+      circle farthest-corner at 32% 106%,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  -webkit-animation: animation 3.5s linear infinite;
+  -moz-animation: animation 3.5s linear infinite;
+  -ms-animation: animation 3.5s linear infinite;
+  -o-animation: animation 3.5s linear infinite;
+  animation: animation 3.5s linear infinite;
+}
+
+a#instagram i#logo {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  display: block;
+  width: 106px;
+  height: 106px;
+  border: 9.8px solid rgb(255, 255, 255);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+a#instagram i#logo::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  display: block;
+  width: 54.8px;
+  height: 54.8px;
+  border: 9.8px solid rgb(255, 255, 255);
+  -webkit-border-radius: 27.4px;
+  -moz-border-radius: 27.4px;
+  border-radius: 27.4px;
+}
+
+a#instagram i#logo::after {
+  content: "";
+  top: 8.6px;
+  right: 8.6px;
+  position: absolute;
+  display: block;
+  width: 12.8px;
+  height: 12.8px;
+  background: rgb(255, 255, 255);
+  -webkit-border-radius: 6.4px;
+  -moz-border-radius: 6.4px;
+  border-radius: 6.4px;
+}
+
+@-webkit-keyframes animation {
+  0%,
+  100% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(3.5);
+  }
+}
+
+@-moz-keyframes animation {
+  0%,
+  100% {
+    -moz-transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(3.5);
+  }
+}
+
+@-ms-keyframes animation {
+  0%,
+  100% {
+    -ms-transform: scale(1);
+  }
+  50% {
+    -ms-transform: scale(3.5);
+  }
+}
+
+@-o-keyframes animation {
+  0%,
+  100% {
+    -o-transform: scale(1);
+  }
+  50% {
+    -o-transform: scale(3.5);
+  }
+}
+
+@keyframes animation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3.5);
+  }
+}
